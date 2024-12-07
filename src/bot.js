@@ -6,7 +6,7 @@ const Schema = mongoose.Schema;
 const token = process.env.BOT_TOKEN;
 const bot = new TelegramBot(token, { polling: true });
 
-mongoose.connect("mongodb://localhost:27017/gifatDB", {
+mongoose.connect("mongodb://localhost:27017/gifinityDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
